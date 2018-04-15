@@ -1,8 +1,8 @@
-package poj;
+package poj.add;
 
 import java.util.Scanner;
 
-public class Add {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();

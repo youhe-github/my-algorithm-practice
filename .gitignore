@@ -1,0 +1,5 @@
+#idea dir
+/.idea/*
+
+#file type filter
+*.iml

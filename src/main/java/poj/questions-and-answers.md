@@ -1,4 +1,3 @@
 # POJ questions and answers
 
-1000. a加b   
-questions and answers: package poj.add
+1. a加b : package poj.add

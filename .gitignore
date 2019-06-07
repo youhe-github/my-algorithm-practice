@@ -1,5 +1,6 @@
 #idea dir filter
 /.idea/*
+/target/*
 
 #file type filter
 *.iml

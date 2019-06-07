@@ -1,10 +1,16 @@
 package leetcode.code;
 
+import org.junit.Test;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class num1 {
-    public static void main(String[] args) {
+import static org.junit.Assert.*;
+
+public class TwoSum {
+
+    @Test
+    public void testTwoSum() {
         int[] nums = new int[] {2, 7, 11, 15};
         int target = 9;
 
@@ -12,7 +18,7 @@ public class num1 {
         System.out.println(results[0] + ", " + results[1]);
     }
 
-    public static int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> records = new HashMap();
 
         for(int i = 0; i < nums.length; i++) {
